@@ -4,9 +4,17 @@
   <title>ThornApple - ColorWaltz</title>
   <meta charset="utf-8">
   <link rel ="stylesheet" href="style.css">
+  <script src="colors.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 <body>
   <h1><a href = "index.html"><span style="color:#A50000">ThornApple</span></a></h1>
+  <div id = "button">
+  <input id="night_day" type="button" value="night" onclick="
+   nightDayHandler(this);
+ ">
+  </div>
   <div id="grid">
     <ol id = "first_ol">
       <li><a href = "1.html">난 자꾸 말을 더듬고 <br>잠드는 법도 잊었네</a></li>

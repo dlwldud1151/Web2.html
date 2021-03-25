@@ -6,15 +6,20 @@
 #grid ol{
   padding-left: 40px;
 }
+#button{
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+}
+
 body{
   margin:0px;
 }
 h1{
   font-size: 60px;
   text-align: center;
-  border-bottom: 1px solid gray;
-  margin :0;
-  padding: 20px;
+  margin-bottom:0px;
+  padding: 0px;
 }
 a {
   color:black;
